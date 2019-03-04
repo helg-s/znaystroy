@@ -1,0 +1,153 @@
+.content-wrap
+    display: flex
+    flex-direction: column
+.content-title
+    width: 100%
+    margin-bottom: 50px
+    text-align: center
+    p
+        margin-top: 5px
+        font-size: 16px
+        text-indent: 20px   
+        text-align: left
+.red
+    color: $c1
+    font-size: 36px
+    font-weight: 700
+.content-item
+    width: 100%
+    height: 250px
+    position: relative
+    margin: 0 30px 30px 0
+.content-item-wrap
+    display: flex
+.content-item-img
+    display: block
+    width: 550px
+    padding: 0 0 0 20px
+    box-sizing: border-box
+    img
+        max-width: 75%
+.content-item-line
+    display: flex
+    position: relative
+    height: 30px
+    margin: 0 0 50px 0
+    padding-left: 100px
+    align-items: center
+    background: linear-gradient(0deg, $c2, $c2-g) 
+    box-shadow: 0 7px 10px -3px $sc
+    img
+        position: absolute
+        width: 12%
+        right: 20px
+        bottom: -30px
+.content-item-title 
+    color: $c4
+    font-size: 16px
+    font-weight: 700
+.content-item-text
+    font-size: 16px
+    text-indent: 20px
+    a
+        font-size: 16px
+        font-weight: 600
+        text-decoration: underline
+        color: $c1 
+.btn-green
+    width: 120px
+    height: 35px
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    right: 100px
+    bottom: 20px
+    border-radius: 5px
+    background: linear-gradient(0deg, $c3, $c3-g)
+    box-shadow: 0 7px 10px -3px $sc
+    &:hover
+        background: $c3
+        box-shadow: none
+    a
+        display: flex
+        width: 100%
+        height: 100%
+        justify-content: center
+        align-items: center
+        font-size: 12px
+        font-weight: 600
+        text-decoration: none
+        color: $c4
+        i
+            padding-left: 10px
+            padding-bottom: 1px
+            font-size: 16px
+.new-articles
+    display: flex
+    flex-direction: column
+.new-articles-line
+    display: flex
+    height: 30px
+    margin: 0 0 30px 0
+    padding-left: 100px
+    align-items: center
+    background: linear-gradient(0deg, $c1, $c1-g) 
+    box-shadow: 0 7px 10px -3px $sc
+.new-articles-title   
+    color: $c4
+    font-size: 16px
+    font-weight: 500
+.new-articles-item
+    padding: 10px
+    img
+        width: 50%
+.new-articles-item-content
+    display: flex
+    flex-direction: column
+    padding: 20px 0
+    box-sizing: border-box
+    text-align: center
+    min-height: 200px
+    background-color: $c6
+    box-shadow: 0 5px 20px $sc
+    img
+        margin-bottom: 20px
+.aside-right-wrap
+    display: flex
+    flex-direction: column
+    padding-left: 30px
+    h2
+        font-size: 20px
+        margin-bottom: 20px
+.aside-right-block
+    box-shadow: -15px 15px 40px -20px $sc
+.aside-right-item
+    list-style: none
+    background-color: $c6
+    a
+        display: flex
+        width: 100%
+        height: 30px
+        align-items: center
+        padding-left: 10px
+        box-sizing: border-box
+        font-size: 14px
+        font-weight: 600
+        text-decoration: none
+        color: $c2
+        &:hover
+            background: $c3
+            box-shadow: 0 7px 20px -5px black
+            color: $c4
+            transition: $tr-l-dm
+.aside-right-item-title
+    display: flex
+    height: 30px
+    padding-left: 20px
+    align-items: center
+    background: linear-gradient(0deg, $c2, $c2-g)
+    span
+        color: $c4
+        font-size: 15px
+        font-weight: 600

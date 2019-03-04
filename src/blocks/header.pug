@@ -1,0 +1,118 @@
+header.main-header
+    .container
+        .header-top
+            .logo
+                a.link-logo(href="www.znaystroy.ru/index.php",  target="_blank", rel="noopener noreferrer")
+                    img(src="../images/logo/Logo.png", alt="Знай!Строй")
+            .header-top-aside
+                .title
+                    span.tagline Строить, зная - легко!
+                nav.sign-in
+                    li.sign-in-enter
+                        a.sign-in-enter(href="") Войти
+                    li.sign-in-registration
+                        a.sign-in-registration(href="",  target="_blank", rel="noopener noreferrer") Регистрация
+    .main-menu-wrap
+        .container     
+            .main-menu
+                input.toggle-menu(type="checkbox", name="toggle", id="main-menu") 
+                label.menu-collapse-label(for="main-menu")
+                    i.fa.fa-bars(aria-hidden="true")
+                ul.main-menu-list
+                    li.main-menu-list-item.main-button
+                        a.main-menu-link(href="http://", target="_blank", rel="noopener noreferrer")
+                            i.fa.fa-home.fa-static-item(aria-hidden="true")
+                            span Главная
+                    li.main-menu-list-item
+                        input.toggle-menu(type="checkbox", name="toggle", id="drop1") 
+                        a.main-menu-link.noclick(href="http://", target="_blank", rel="noopener noreferrer") 
+                            i.fa.fa-book.fa-drop(aria-hidden="true")
+                            span Узнай
+                            i.fa.fa-caret-down(aria-hidden="true")
+                        label.label-drop.drop1(for="drop1")
+                            i.fa
+                        ul.main-drop-menu
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Все о фундаментах
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Все об ограждающих конструкциях
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Все о кровлях
+                    li.main-menu-list-item
+                        input.toggle-menu(type="checkbox", name="toggle", id="drop2")
+                        a.main-menu-link.noclick(href="http://", target="_blank", rel="noopener noreferrer") 
+                            i.fa.fa-calculator.fa-drop(aria-hidden="true")
+                            span Рассчитай
+                            i.fa.fa-caret-down(aria-hidden="true")
+                        label.label-drop.drop1(for="drop2")
+                            i.fa
+                        ul.main-drop-menu
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Как пользоваться калькуляторами
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Как выполнить расчет
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Калькулятры
+                    li.main-menu-list-item
+                        input.toggle-menu(type="checkbox", name="toggle", id="drop3")
+                        a.main-menu-link.noclick(href="http://", target="_blank", rel="noopener noreferrer")
+                            i.fa.fa-building.fa-drop(aria-hidden="true")
+                            span Построй
+                            i.fa.fa-caret-down(aria-hidden="true")
+                        label.label-drop.drop3(for="drop3")
+                            i.fa
+                        ul.main-drop-menu
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Дом
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Дачу
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Забор
+                    li.main-menu-list-item
+                        input.toggle-menu(type="checkbox", name="toggle", id="drop4")
+                        a.main-menu-link.noclick(href="http://", target="_blank", rel="noopener noreferrer")
+                            i.fa.fa-question.fa-drop(aria-hidden="true")
+                            span Спроси
+                            i.fa.fa-caret-down(aria-hidden="true")
+                        label.label-drop.drop4(for="drop4")
+                            i.fa
+                        ul.main-drop-menu
+                            li.main-drop-menu-item
+                                a(href="http://", target="_blank", rel="noopener noreferrer")
+                                    span Форум
+                            li.main-drop-menu-item.main-drop-menu-item-to-us
+                                input.toggle-menu(type="checkbox", name="toggle", id="drop5")
+                                a.menu-sub-link.noclick(href="http://", target="_blank", rel="noopener noreferrer")
+                                    i.fa.fa-envelope-o.fa-drop(aria-hidden="true")
+                                    span.for-hover Связаться с нами
+                                    i.fa.fa-caret-down.fa-to-us(aria-hidden="true")
+                                a.menu-sub-link-adapt(href="http://", target="_blank", rel="noopener noreferrer")
+                                    i.fa.fa-envelope-o.fa-drop(aria-hidden="true")
+                                    span.for-hover Связаться с нами
+                                label.label-drop.label-drop-sub.drop5(for="drop5")
+                                    i.fa
+                                ul.main-drop-menu-sub
+                                    li.main-drop-menu-item
+                                        a(href="http://", target="_blank", rel="noopener noreferrer")
+                                            span О нас
+                                    li.main-drop-menu-item
+                                        a(href="http://", target="_blank", rel="noopener noreferrer")
+                                            span Задать вопрос
+                .search-item
+                    input.toggle-menu(type="checkbox", name="toggle", id="menu") 
+                    label.toggle-label-search(for="menu")
+                        i.fa.fa-search.fa-static-item(aria-hidden="true")
+                        span Поиск  
+                    form.search-form(action="", method="post")
+                        input.search-text(type="search", placeholder="Поиск по сайту" name="s")
+                        button.search-btn(type="submit") Найти
+                        

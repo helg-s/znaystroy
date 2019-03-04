@@ -1,0 +1,224 @@
+@media screen and (max-width: 800px)
+    /* ----- MENU -----*/
+    .aside-right
+        display: none
+    .col75
+        width: 100%
+    .col25
+        width: 50%
+    .tagline
+        font-size: 30px
+    .main-menu
+        display: block
+        max-width: 100vw
+        height: 35px
+        position: relative
+        * 
+            box-shadow: none
+        li, a
+            &:hover
+                box-shadow: none
+                background: $c8
+                color: $c2
+    .main-button
+        a
+            &:hover
+                background: $c3
+                color: $c4
+    .main-menu-list
+        display: none
+        width: 300px
+        position: absolute
+        left: 0
+        top: 35px
+        z-index: 1
+        li
+            position: relative
+            width: 300px
+        .main-menu-link
+            display: flex
+            height: 35px
+            justify-content: flex-start
+            padding: 0 0 0 5px
+            box-sizing: border-box
+            background: $c3
+            border-bottom: 1px solid $c4
+    .main-drop-menu
+        display: none
+        background-color: $c6
+        a
+            border-bottom: 1px solid $c4
+    .main-drop-menu-item-to-us
+        &:hover
+            span.for-hover
+                color: $c2
+            i.fa-envelope-o.fa-drop
+                opacity: 1
+    a.menu-sub-link
+        display: none
+    a.menu-sub-link-adapt
+        display: flex
+        color: $c2
+    .main-drop-menu-sub
+        display: none
+    .search-item
+        position: absolute
+        right: 0
+    .menu-collapse-label
+        display: flex
+    .fa-drop
+        display: block
+    .fa-caret-down
+        display: none
+    /* --- MAIN MENU DROP --- */
+    label.label-drop
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        width: 100%
+        height: 100%
+        cursor: pointer  
+    label.label-drop>.fa
+        &:before
+            position: absolute
+            right: 10px
+            bottom: 10px
+            content: "\f0d7"
+            color: $c6
+    label.label-drop-sub>.fa
+        &:before
+            position: absolute
+            right: 10px
+            bottom: 10px
+            content: "\f0d7"
+            color: $c2
+    input[type="checkbox"]
+        &:checked ~ label.menu-collapse-label
+            background: $c3
+        &:checked ~ label.label-drop>.fa
+            &:before
+                position: absolute
+                right: 10px
+                top: 10px
+                content: "\f0d8"
+                color: $c6   
+        &:checked ~ .main-menu-link
+            background: $c2
+        &:checked ~ .menu-sub-link-adapt
+            background: $c2
+            color: $c4
+            span
+                color: $c4
+        &:checked ~ .main-menu-list
+            display: block
+        &:checked ~ .main-drop-menu
+            display: block
+            visibility: visible
+            opacity: 1
+            background-color: $c6
+        &:checked ~ .main-drop-menu-sub
+            display: block
+            visibility: visible
+            opacity: 1
+    .sign-in 
+        padding-right: 20px
+    .footer
+        height: 130px
+        margin-top: 10px
+@media screen and (max-width: 500px)
+    .col25
+        width: 100%
+    .col33
+        width: 100%
+    .main-menu-wrap
+        margin-bottom: 5px
+    .main-menu-list
+        width: 100vw
+        li
+            position: relative
+            width: 100vw
+    h1
+        font-size: 18px
+    .content-title
+        p
+            font-size: 14px
+    .red
+        font-size: 28px
+        font-weight: 700
+    .header-top
+        display: block
+        height: 150px
+        margin-bottom: 10px
+    .logo
+        width: 100vw
+        height: 80px
+        align-items: flex-end
+        a
+            text-align: center
+        img
+            width: 75%
+    .sign-in 
+        padding-right: 10px
+    .header-top-aside
+        display: flex
+        width: 100vw
+        flex-direction: column
+    .title
+        height: 40px
+        justify-content: center
+        margin-bottom: 10px
+    .tagline
+        font-size: 28px
+        color: $c1
+    .content-item
+        display: flex
+        width: 100%
+        height: 350px
+        margin-bottom: 10px
+        flex-direction: column
+    .content-item-wrap
+        display: flex
+        width: 100%
+        flex-direction: column
+        align-items: center
+    .content-item-line
+        width: 100%
+        height: 25px
+        padding-left: 20px
+        margin: 0 0 20px 0
+        span
+            font-size: 14px
+        img
+            width: 15%
+            bottom: -10px
+    .content-item-img
+            width: 100vw
+            padding: 0
+            text-align: center
+            img
+                width: 30%
+    .content-item-text
+        p
+            font-size: 14px
+        a
+            font-size: 14px
+    .btn-green
+        position: static
+        margin-top: 25px
+    .footer
+        width: 100vw
+        height: 250px
+        margin-top: 0
+    .footer-wrap
+        padding-top: 5px
+        flex-direction: column-reverse
+    .footer-item-content
+        padding: 0
+        margin-bottom: 10px
+    .no-wrap
+        flex-wrap: nowrap
+
+
+
